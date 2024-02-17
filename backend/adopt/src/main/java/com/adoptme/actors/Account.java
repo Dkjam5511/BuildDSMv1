@@ -1,6 +1,6 @@
 package src.main.java.com.adoptme.actors;
 
-public abstract class Account{
+public class Account{
         
         private String name;
         private String email;
@@ -12,8 +12,7 @@ public abstract class Account{
         private String country;
         private String password;
 
-        
-        public Account(String name, String email, String phone, String address, String city, String state, String zip, String country, String password,){
+        public Account(String name, String email, String phone, String address, String city, String state, String zip, String country, String password){
             this.name = name;
             this.email = email;
             this.phone = phone;
@@ -61,9 +60,6 @@ public abstract class Account{
             return password;
         }
         
-        public String getStatus(){
-            return status;
-        }
         
         
         public void setName(String name){
@@ -98,5 +94,7 @@ public abstract class Account{
             this.country = country;
         }
         
-        public void setPassword
+        public void setPassword(String password){
+            this.password = password;
+        }
 }
