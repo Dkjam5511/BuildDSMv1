@@ -1,6 +1,6 @@
 package src.main.java.com.adoptme.actors;
 
-public class Account{
+public abstract class Account{
         
         private String name;
         private String email;
