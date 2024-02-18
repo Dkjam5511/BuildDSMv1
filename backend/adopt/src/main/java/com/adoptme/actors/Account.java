@@ -1,4 +1,4 @@
-package src.main.java.com.adoptme.actors;
+package com.adoptme.actors;
 
 public abstract class Account{
         
