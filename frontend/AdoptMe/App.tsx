@@ -1,5 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
+<<<<<<< HEAD
 import { ActivityIndicator, Button, ImageBackground, StyleSheet, Text, View } from 'react-native';
+=======
+import { ActivityIndicator, Button, StyleSheet, Text, View } from 'react-native';
+>>>>>>> 73c9afe11e012c66b5906d4ab314904abdaf85d9
 import Swiper from 'react-native-deck-swiper';
 
 interface Card {
@@ -93,6 +97,10 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: '#E8E8E8',
     justifyContent: 'flex-end',
+<<<<<<< HEAD
+=======
+    backgroundColor: 'white',
+>>>>>>> 73c9afe11e012c66b5906d4ab314904abdaf85d9
     padding: 20,
   },
   name: {
